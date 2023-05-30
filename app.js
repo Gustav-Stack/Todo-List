@@ -17,7 +17,7 @@ app.use(express.static("public"))
 //to use code inside a html file you will need to use the command <% inside all the pieces of code that you write in you
 //code like you want do separata a variable of a text in javaScript%>
 
-mongoose.connect("mongodb+srv://"+process.env.API_KEY+"@cluster0.vijxmox.mongodb.net/todolistDB")
+mongoose.connect("mongodb+srv://"+process.env.API_KEY+"/todolistDB")
 
 // mongoose.connect("mongodb://127.0.0.1:27017/todolistDB")
 const itemsSchema ={
